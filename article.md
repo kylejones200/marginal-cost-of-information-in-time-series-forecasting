@@ -16,13 +16,13 @@ This principle applies broadly in analytics. At what point do we have enough dat
 
 Key considerations in optimal stopping for analytics include:
 
-- **Cost-benefit trade-offs**: Does the added information materially improve decision-making?
+- Cost-benefit trade-offs: Does the added information materially improve decision-making?
 
-- **Timeliness**: Is waiting for more data worth the delay in action?
+- Timeliness: Is waiting for more data worth the delay in action?
 
-- **Sufficiency**: Have we reached a stable level of accuracy or confidence?
+- Sufficiency: Have we reached a stable level of accuracy or confidence?
 
-- **Diminishing returns**: Are additional data points contributing meaningfully to insights?
+- Diminishing returns: Are additional data points contributing meaningfully to insights?
 
 # Analytics Is About Choice: What Do We Want to Know?
 
@@ -36,19 +36,19 @@ However, the reverse is also true. The data we have limits the questions we can 
 
 A common misconception is that analytics is a passive process---data is fed into an algorithm, and insights emerge. In reality, analytics is deeply active and subjective. The analyst plays a pivotal role in shaping the outcome through a series of choices:
 
-- **What questions to ask**: The framing of the problem determines what data is relevant.
+- What questions to ask: The framing of the problem determines what data is relevant.
 
-- **What data to use**: The analyst decides which datasets to include or exclude.
+- What data to use: The analyst decides which datasets to include or exclude.
 
-- **How to transform the data**: Cleaning, filtering, normalizing, and aggregating data all impact results.
+- How to transform the data: Cleaning, filtering, normalizing, and aggregating data all impact results.
 
-- **What features to engineer**: Selecting the right variables enhances predictive power.
+- What features to engineer: Selecting the right variables enhances predictive power.
 
-- **What contextual data to incorporate**: External factors like economic trends or weather conditions may provide critical insights.
+- What contextual data to incorporate: External factors like economic trends or weather conditions may provide critical insights.
 
-- **What models to use**: Choosing between linear regression, neural networks, or decision trees affects interpretability and accuracy.
+- What models to use: Choosing between linear regression, neural networks, or decision trees affects interpretability and accuracy.
 
-- **How to interpret results**: Statistical significance, business context, and potential biases all shape the conclusions drawn.
+- How to interpret results: Statistical significance, business context, and potential biases all shape the conclusions drawn.
 
 Each of these choices affects the outcome. A different set of decisions could lead to different conclusions from the same dataset.
 
@@ -62,11 +62,11 @@ For analysts, the most important skill is not just working with data, but knowin
 
 The graph above visualizes the trade-offs inherent in forecasting by illustrating three key cost components:
 
-- **Cost of Forecasting (Dashed Line)**: As forecasting effort increases, the cost of gathering, processing, and analyzing data rises. This follows a quadratic trend, reflecting the reality that deeper analysis often requires exponentially more resources.
+- Cost of Forecasting (Dashed Line): As forecasting effort increases, the cost of gathering, processing, and analyzing data rises. This follows a quadratic trend, reflecting the reality that deeper analysis often requires exponentially more resources.
 
-- **Losses Due to Uncertainty (Dotted Line)**: When forecasting effort is low, uncertainty remains high, leading to significant potential losses. As forecasting effort increases, these losses decline because better predictions reduce risk exposure.
+- Losses Due to Uncertainty (Dotted Line): When forecasting effort is low, uncertainty remains high, leading to significant potential losses. As forecasting effort increases, these losses decline because better predictions reduce risk exposure.
 
-- **Total Cost (Solid Line)**: This represents the sum of both the forecasting cost and the losses due to uncertainty. Initially, as forecasting effort increases, total cost declines due to the sharp reduction in uncertainty-related losses. However, beyond a certain point, the increasing cost of forecasting outweighs the marginal reduction in uncertainty, causing total cost to rise again.
+- Total Cost (Solid Line): This represents the sum of both the forecasting cost and the losses due to uncertainty. Initially, as forecasting effort increases, total cost declines due to the sharp reduction in uncertainty-related losses. However, beyond a certain point, the increasing cost of forecasting outweighs the marginal reduction in uncertainty, causing total cost to rise again.
 
 ## The Optimal Forecasting Effort
 
@@ -84,7 +84,7 @@ Decision-makers can use this to allocate resources efficiently and ensure that f
 
 ## Key Takeaways
 
-- **Cost-benefit trade-offs**: Does the added information materially improve decision-making?
-- **Timeliness**: Is waiting for more data worth the delay in action?
-- **Sufficiency**: Have we reached a stable level of accuracy or confidence?
-- **Diminishing returns**: Are additional data points contributing meaningfully to insights?
+- Cost-benefit trade-offs: Does the added information materially improve decision-making?
+- Timeliness: Is waiting for more data worth the delay in action?
+- Sufficiency: Have we reached a stable level of accuracy or confidence?
+- Diminishing returns: Are additional data points contributing meaningfully to insights?
